@@ -8,6 +8,8 @@ namespace Laba5
     {
         public static void Main()
         {
+            Calcultor calcultor = new();
+            calcultor.Add(1, 3);
             
         }
     }
