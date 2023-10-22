@@ -1,7 +1,4 @@
 ﻿
-using System;
-using System.ComponentModel;
-
 namespace Laba5
 {
     public class Programm
@@ -13,9 +10,6 @@ namespace Laba5
             calcultor.Subtract(5, 1);
             calcultor.Multiply(5, 1); //тут ошибка, вывод должен быть четыре 
             calcultor.Devide(4, 1);
-
-
-
         }
     }
     public class Calcultor
@@ -37,7 +31,6 @@ namespace Laba5
             Console.WriteLine(a / b);
         }
     }
-    
 }
 
 
