@@ -12,8 +12,10 @@ namespace Laba5
             calcultor.Add(1, 3);
             calcultor.Subtract(5, 1);
             calcultor.Multiply(5, 1); //тут ошибка, вывод должен быть четыре 
+            calcultor.Devide(4, 1);
 
-            
+
+
         }
     }
     public class Calcultor
