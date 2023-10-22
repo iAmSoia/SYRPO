@@ -5,6 +5,8 @@ class Programm
     static void Main(string[] args)
     {
         WorkWithUser workWithUser = new();
+        workWithUser.Question();
+        workWithUser.WriteBye();
         workWithUser.WriteHi();
     }
 }
@@ -15,4 +17,13 @@ class WorkWithUser
     {
         Console.WriteLine("Hi!");
     }
+    public void Question()
+    {
+        Console.WriteLine("Как вы?");
+    }
+    public void WriteBye()
+    {
+        Console.WriteLine("Bye!");
+    }
+    
 }
