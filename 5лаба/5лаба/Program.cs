@@ -10,6 +10,8 @@ namespace Laba5
         {
             Calcultor calcultor = new();
             calcultor.Add(1, 3);
+            calcultor.Subtract(5, 1);
+
             
         }
     }
